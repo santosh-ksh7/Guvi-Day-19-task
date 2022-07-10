@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form >
+        <div>
+            <label for="fname">First Name</label>
+            <input class="fname" type="text" id="fname">
+        </div>
+        <div>
+            <label for="lname">Last Name</label>
+            <input class="lname" type="text" id="lname">
+        </div>
+        <div>
+            <label for="address">Address</label>
+            <input class="addd" type="text" id="address">
+        </div>
+        <div>
+            <label for="pincode">Pin Code</label>
+            <input class="num" type="number" id="pincode">
+        </div>
+        <div>
+            <label>Gender</label>
+            <input type="radio" class="gender" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" class="gender" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label>Choice of food</label>
+            <input class="cbx" type="checkbox" value="Ice-cream" id="Ice-cream" >
+            <label for="Ice-cream">Ice-cream</label>
+            <input class="cbx" type="checkbox" value="Chips" id="Chips">
+            <label for="Chips">Chips</label>
+            <input class="cbx" type="checkbox" value="Soft-drinks" id="Soft-drinks">
+            <label for="Soft-drinks">Soft-drinks</label>
+            <input class="cbx" type="checkbox" value="Biryani" id="Biryani">
+            <label for="Biryani">Biryani</label>
+            <input class="cbx" type="checkbox" value="Dark-chocolate" id="Dark-chocolate">
+            <label for="Dark-chocolate">Dark-chocolate</label>
+        </div>
+        <div>
+            <label for="state">State</label>
+            <input type="text" id="state">
+        </div>
+        <div>
+            <label for="country">Country</label>
+            <input type="text" id="country">
+        </div>
+        
+    </form>
+    <button onclick="submit()" type="submit">Add Record</button>
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address</th>
+                <th>Pin Code</th>
+                <th>Gender</th>
+                <th>Choice of Food</th>
+                <th>State</th>
+                <th>Counntry</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
